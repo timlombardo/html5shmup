@@ -37,7 +37,7 @@ BasicGame.Preloader.prototype = {
     this.load.audio('explosion', ['assets/explosion.ogg', 'assets/explosion.wav']);
     this.load.audio('playerExplosion', ['assets/player-explosion.ogg', 'assets/player-explosion.wav']);
     this.load.audio('enemyFire', ['assets/enemy-fire.ogg', 'assets/enemy-fire.wav']);
-    this.load.audio('playerFire', ['assets/player-fire.ogg', 'assets/player-fire.wav']);
+    this.load.audio('playerFire', ['assets/skorpion.ogg', 'assets/skorpion.wav']);
     this.load.audio('powerUp', ['assets/powerup.ogg', 'assets/powerup.wav']);
     //this.load.audio('titleMusic', ['audio/main_menu.mp3']);
     //  + lots of other required assets here
@@ -58,10 +58,10 @@ BasicGame.Preloader.prototype = {
     //  You can jump right into the menu if you want and still play the music, but you'll have a few
     //  seconds of delay while the mp3 decodes - so if you need your music to be in-sync with your menu
     //  it's best to wait for it to decode here first, then carry on.
-    
+
     //  If you don't have any music in your game then put the game.state.start line into the create function and delete
     //  the update function completely.
-    
+
     //if (this.cache.isSoundDecoded('titleMusic') && this.ready == false)
     //{
     //  this.ready = true;
